@@ -3,9 +3,14 @@ import 'package:flutter/material.dart';
 
 void main() {
   runApp(
-    const MaterialApp(
-      home: Scaffold(body: GradientContainer()),
+    MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: Scaffold(
+        body: GradientContainer(
+          const Color.fromARGB(255, 2, 117, 184),
+          const Color.fromARGB(255, 0, 21, 116),
+        ),
+      ),
     ),
   );
 }
-
