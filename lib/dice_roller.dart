@@ -4,7 +4,6 @@ import 'dart:math';
 class DiceRoller extends StatefulWidget {
   DiceRoller({super.key});
   @override
-  // ignore: no_logic_in_create_state
   State<DiceRoller> createState() {
     return _DiceRollerState();
   }
