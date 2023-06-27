@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 const startAl = Alignment.topLeft;
 const endAl = Alignment.bottomRight;
 
+// ignore: must_be_immutable
 class GradientContainer extends StatelessWidget {
   GradientContainer(this.firstColor, this.secondColor, {super.key});
   Color firstColor;
